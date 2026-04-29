@@ -167,12 +167,12 @@ public class AgenceLocationGUI extends JFrame {
             while (rs.next()) {
                 logArea.append(
                         rs.getInt("ID_VOITURE") + " | " +
-                                rs.getString("IMMATRICULATION") + " | " +
-                                rs.getString("MARQUE") + " " +
-                                rs.getString("MODELE") + " | " +
-                                rs.getInt("ANNEE") + " | " +
-                                rs.getDouble("PRIX_JOURNALIER") + "$/jour | " +
-                                rs.getString("STATUT") + "\n"
+                        rs.getString("IMMATRICULATION") + " | " +
+                        rs.getString("MARQUE") + " " +
+                        rs.getString("MODELE") + " | " +
+                        rs.getInt("ANNEE") + " | " +
+                        rs.getDouble("PRIX_JOURNALIER") + "$/jour | " +
+                        rs.getString("STATUT") + "\n"
                 );
             }
 
@@ -366,13 +366,13 @@ public class AgenceLocationGUI extends JFrame {
             while (rs.next()) {
                 logArea.append(
                         "ID: " + rs.getInt("ID_ENTRETIEN") +
-                                " | Date: " + rs.getDate("DATE_ENTRETIEN") +
-                                " | Type: " + rs.getString("TYPE_ENTRETIEN") +
-                                " | Coût: " + rs.getDouble("COUT") + "$" +
-                                " | Statut: " + rs.getString("STATUT_ENTRETIEN") +
-                                " | Voiture: " + rs.getString("MARQUE") + " " +
-                                rs.getString("MODELE") + " (" +
-                                rs.getString("IMMATRICULATION") + ")\n"
+                        " | Date: " + rs.getDate("DATE_ENTRETIEN") +
+                        " | Type: " + rs.getString("TYPE_ENTRETIEN") +
+                        " | Coût: " + rs.getDouble("COUT") + "$" +
+                        " | Statut: " + rs.getString("STATUT_ENTRETIEN") +
+                        " | Voiture: " + rs.getString("MARQUE") + " " +
+                        rs.getString("MODELE") + " (" +
+                        rs.getString("IMMATRICULATION") + ")\n"
                 );
             }
 
@@ -397,9 +397,9 @@ public class AgenceLocationGUI extends JFrame {
             while (rs.next()) {
                 logArea.append(
                         rs.getString("DATE_OPERATION") + " | " +
-                                rs.getString("TYPE_OPERATION") + " | " +
-                                rs.getString("NOM_TABLE") + " | " +
-                                rs.getString("UTILISATEUR_BD") + "\n"
+                        rs.getString("TYPE_OPERATION") + " | " +
+                        rs.getString("NOM_TABLE") + " | " +
+                        rs.getString("UTILISATEUR_BD") + "\n"
                 );
             }
 
